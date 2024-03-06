@@ -1,11 +1,12 @@
 package cy.olesiabokk.universityapp.entity.interfaces;
 
-import cy.olesiabokk.universityapp.entity.UniversityImpl;
-
 public interface Student extends General {
-    void learn(UniversityImpl university);
+    void learn();
 
     void performTask();
 
     void passExam();
+
+    void setProfessor(Professor professor);
+
 }

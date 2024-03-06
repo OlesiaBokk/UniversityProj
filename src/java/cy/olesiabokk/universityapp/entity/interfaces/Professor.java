@@ -5,5 +5,7 @@ public interface Professor extends General {
 
     void doScientificWork();
 
-    void giveExamination(Student student);
+    void giveExamination();
+
+    void setStudent(Student student);
 }

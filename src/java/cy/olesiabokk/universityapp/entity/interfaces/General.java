@@ -8,4 +8,6 @@ public interface General {
     void eat();
 
     void gotoUniversity();
+
+    void setUniversity(University university);
 }

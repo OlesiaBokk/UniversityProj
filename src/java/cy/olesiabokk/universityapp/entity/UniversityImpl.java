@@ -1,13 +1,16 @@
 package cy.olesiabokk.universityapp.entity;
 
-public class UniversityImpl {
+import cy.olesiabokk.universityapp.entity.interfaces.University;
+
+public class UniversityImpl implements University {
     private String name;
 
     public UniversityImpl(String name) {
         this.name = name;
     }
 
-    public String getUniversityName() {
+    @Override
+    public String getName() {
         return name;
     }
 }
